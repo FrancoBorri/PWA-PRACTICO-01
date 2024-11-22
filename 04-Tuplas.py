@@ -17,11 +17,6 @@ tupla_dos = ("Borri")
 tupla_dos = ("Borri",)
 
 
-# Tambien se puede utilizar el metodo tuple()
-print(tuple(tupla_dos))
-# En este caso python transforma tupla_dos en una tupla
-# Toma cada uno de los valores de tupla_dos y los transforma en tupla
-# La salida seria ('B', 'o', 'r', 'r', 'i')
 
 print(type(mi_tupla))  # <class 'tuple'>
 print(type(tupla_dos))   # <class 'tuple'>
